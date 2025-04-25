@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  background-color: #FFF9F3;
+  color: #5C4D44;
+}
+
+.app {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  margin: 40px auto;
+  max-width: 850px;
+  border: 2px solid #F9E8A3;
+}
+
+h1, h2 {
+  color: #DA6B5C;
+  text-align: center;
+}
+
+button {
+  background-color: #B6C7A4;
+  color: white;
+  border: none;
+  padding: flex;
+  border-radius: 12px;
+  font-weight: bold;
+  font-family: inherit;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #9fb38c;
+}
+
+input, select {
+  background-color: #FFF9F3;
+  border: 1.5px solid #B6C7A4;
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-family: inherit;
+  color: #5C4D44;
+}
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  border-bottom: 2px dashed #F9E8A3;
+  padding-bottom: 6px;
+}

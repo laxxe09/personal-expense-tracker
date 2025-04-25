@@ -1,0 +1,77 @@
+
+.form-table {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.expense-item button {
+  background-color: transparent;
+  color: #e74c3c;
+  font-size: 1rem;
+  border: none;
+  padding: 2px;
+  margin-left: 8px;
+  cursor: pointer;
+  line-height: 1;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.expense-item button:hover {
+  transform: scale(1.1);
+  color: #c0392b;
+}
+
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.form-row input,
+.form-row select {
+  padding: 8px 10px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  background-color: #FFF9F3;
+  border: 1.5px solid #B6C7A4;
+  border-radius: 10px;
+  color: #5C4D44;
+  flex: 0 1 auto;
+}
+
+.form-row input[type="text"] {
+  width: 140px;
+  max-width: 100%;
+}
+
+.form-row input[type="number"] {
+  width: 90px;
+}
+
+.form-row select {
+  width: 110px;
+}
+
+.form-row input[type="date"] {
+  width: 120px;
+}
+
+.form-row button {
+  background-color: #B6C7A4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.form-row button:hover {
+  background-color: #9fb38c;
+}
