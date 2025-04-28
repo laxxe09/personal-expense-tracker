@@ -122,7 +122,7 @@ const App: React.FC = () => {
 
       <div className="chart-container">
         <h2>Monthly Totals Comparison</h2>
-        <ResponsiveContainer width="100%" height={300}>
+        <ResponsiveContainer width="100%" height={350}>
           <BarChart data={MONTH_OPTIONS.map(month => ({
             month,
             total: expenses
@@ -134,6 +134,7 @@ const App: React.FC = () => {
   dataKey="month" 
   type="category" 
   interval={0} 
+  angle={-30}
 />
 
             <YAxis />
