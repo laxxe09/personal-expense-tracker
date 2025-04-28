@@ -83,7 +83,7 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <h1>Simple Expense Tracker</h1>
+      <h1>Monthly Expense Tracker</h1>
 
       <ExpenseForm onAdd={addExpense} />
 
@@ -130,7 +130,12 @@ const App: React.FC = () => {
               .reduce((sum, exp) => sum + exp.amount, 0)
           }))}>
             <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="month" />
+            <XAxis 
+  dataKey="month" 
+  type="category" 
+  interval={0} 
+/>
+
             <YAxis />
             <Tooltip />
             <Bar dataKey="total" fill="#DA6B5C" name="Total ($)" />
